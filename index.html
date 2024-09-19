@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CookPal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+       <h1 class="logo">Cookpal</h1>
+       <nav class="nav-menu">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Explore</a></li>
+            <li><a href="#">Help</a></li>
+        </ul>
+
+       </nav>
+
+        
+    <div class="trending-section">
+        <div class="overlay-text">
+            <h2>Trending now...</h2>
+            <p>Mike's Famous Salad with Cheese</p>
+        </div>
+    </div>
+
+    <input type="text" id="searchBar" placeholder="Search for recipes...">
+
+        
+        
+        <div class="filters">
+            <button id="showAll">Show All</button>
+            <button id="showVeg">Veg</button>
+            <button id="showNonVeg">Non-Veg</button>
+
+            <label>
+                <input type="radio" name="rating" value="above4.5"> Rating > 4.5
+            </label>
+            <label>
+                <input type="radio" name="rating" value="below4.0"> Rating < 4.0
+            </label>
+        </div>
+    </header>
+
+    <section id="recipeContainer"></section>
+
+    <script src="script.js"></script>
+</body>
+</html>
